@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 import sys
 
-query = sys.argv[1].replace('') #4:03+33
+query = sys.argv[1] #4:03+33
 
 time, mins = query.split('+')
 mins = int(mins) # time, mins = "4:03", 30
