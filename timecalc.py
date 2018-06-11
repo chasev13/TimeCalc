@@ -12,4 +12,4 @@ while time[1] > 59:
     time[1] -= 60
 
 
-print "{}:{}".format(time[0], time[1] if time[1] > 9 else "0" + time[1])
+print "{}:{}".format(time[0], time[1] if time[1] > 9 else "0" + str(time[1]))
